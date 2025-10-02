@@ -1,0 +1,68 @@
+# --- macOS ---
+# General macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Thumbnails
+._*
+Thumbs.db
+ehthumbs.db
+
+# Archives
+__MACOSX
+
+# --- Python & Poetry ---
+# Virtual Environment
+# This is where all your dependencies are installed. Never commit it.
+.venv/
+venv/
+*/.venv/
+
+# Poetry build artifacts
+dist/
+build/
+
+# Byte-compiled / optimized / C extensions
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Egg info
+*.egg-info/
+.eggs/
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+nosetests.xml
+coverage.xml
+
+# Type checker cache
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# --- Environment Variables ---
+# Never commit your secrets or local configurations!
+# Store sensitive information like API keys here.
+.env
+.env.*
+# It's good practice to commit a template file.
+!.env.example
+
+# --- Editor & IDE Files ---
+# VSCode
+.vscode/
+# PyCharm
+.idea/
